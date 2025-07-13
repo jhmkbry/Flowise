@@ -14,7 +14,7 @@
         "build": "turbo run build",
         "build-force": "pnpm clean && turbo run build --force",
         "dev": "turbo run dev --parallel --no-cache",
-        "start": "cd packages/server && pnpm start"
+        "start": "cd packages/server && pnpm start",
         "start:windows": "cd packages/server/bin && run start",
         "start:default": "cd packages/server/bin && ./run start",
         "start-worker": "run-script-os",
